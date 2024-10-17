@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	height: 65px;
+	width: 100%;
+	background: #1A5319;
+}
+
+.navbar .logo {
+	position: relative;
+	left: 18px;
+}
+
+.logo span {
+	font-size: 25px;
+	font-weight: 600;
+	color: #ECFFE6;
+	margin-right: 15px;
+}
+
+.logo span i {
+	padding-right: 5px;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #ECFFE6;
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+.logo a i {
+	padding-right: 5px;
+}
+
+.buttons {
+	padding-right: 10px;
+}
+
+.buttons a {
+	text-decoration: none;
+	color: #ECFFE6;
+	font-size: 18px;
+	padding: 0px 12px;
+}
+
+.buttons a i {
+	padding-right: 5px;
+}

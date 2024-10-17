@@ -1,0 +1,66 @@
+body {
+	background: #f5f5f5;
+}
+
+h1 {
+	text-align: center;
+	color: #FF1E00;
+	font-size: 45px;
+	margin: 10px auto;
+	font-weight: 700;
+	text-shadow: 3px 1px #000;
+}
+
+table {
+	width: 98%;
+	margin: 15px auto 0px auto;
+	background: #fff;
+	box-shadow: 0 0 5px 5px #9D9D9D;
+	text-align: center;
+	cursor: text;
+}
+
+table,
+th,
+td {
+	border: 1px solid #444444;
+	padding: 8px;
+}
+
+#thead {
+	background: #1A5319;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	height: 35px;
+}
+
+#tbody {
+	font-weight: 400;
+}
+
+#edit,
+#delete {
+	height: 35px;
+	width: 80px;
+	background: #541690;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-weight: 400;
+	color: white;
+	font-weight: 500;
+	transition: 2s all ease-in;
+}
+
+#edit:hover {
+	background: #001253;
+}
+
+#delete {
+	background: #D21312;
+}
+
+#delete:hover {
+	background: #CF0A0A;
+}
