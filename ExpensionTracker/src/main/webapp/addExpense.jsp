@@ -47,7 +47,7 @@
 					<input type="text" id="price" name="price" autocomplete="off" required>
 				</div>
 				<div class="button-control">
-					<input type="submit" value="Add">
+					<input type="submit" value="Add" id="addbtn">
 				</div>
 			</form>
 		</div>
